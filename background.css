@@ -1,0 +1,33 @@
+.img {
+  background-image: url('nature.jpeg');
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 400px;
+  color: yellow;
+}
+
+.linear {
+  /* background: linear-gradient(to bottom left, red, green, blue, white); */
+  height: 700px;
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 0, 0, 0.785),
+      rgb(0, 89, 255)
+    ),
+    url(nature.jpeg);
+}
+
+.radial {
+  /* background: linear-gradient(to bottom left, red, green, blue, white); */
+  height: 700px;
+  background-image: radial-gradient(
+      circle,
+      yellow 0% 20%,
+      rgba(255, 247, 0, 0.503) 20% 70%,
+      rgba(255, 0, 149, 0.447) 70% 90%,
+      rgb(88, 88, 173) 90% 100%
+    ),
+    url(nature.jpeg);
+}

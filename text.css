@@ -1,0 +1,22 @@
+h1 {
+  color: turquoise;
+  background-color: slategray;
+  font-size: 60px;
+  /* font-weight: from 100 to 900 */
+  font-weight: lighter;
+  letter-spacing: 20px;
+  font-family: 'Mingzat', sans-serif;
+}
+
+h2 {
+  text-transform: capitalize;
+  text-decoration: overline wavy;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  line-height: 30px;
+  text-align: justify;
+  font-family: 'Splash', cursive;
+}
